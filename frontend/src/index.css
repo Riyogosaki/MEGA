@@ -1,0 +1,235 @@
+body{
+   background-color: rgba(67, 90, 111, 0.7) ; 
+}
+.mega{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   background-color: #f4f4f4;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   max-width: 400px;
+   margin: 0 auto;
+ }
+ 
+ .mega h1 {
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 20px;
+ }
+ 
+ .mega a {
+   text-decoration: none;
+   font-size: 16px;
+   margin-bottom: 15px;
+   color: #007bff;
+   transition: color 0.3s;
+ }
+ 
+ .mega a:hover {
+   color: #0056b3;
+ }
+ 
+ .mega.button {
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color: #28a745;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s, transform 0.2s;
+ }
+ 
+ .mega.button:hover {
+   background-color: #218838;
+   transform: scale(1.05);
+ }
+ 
+ .mega.button:active {
+   background-color: #1e7e34;
+   transform: scale(0.95);
+ }
+ .harry {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: #f9f9f9;
+   font-family: 'Arial', sans-serif;
+ }
+ 
+ .harry nav {
+   background-color: #007bff;
+   padding: 10px 20px;
+   color: white;
+   font-size: 18px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .harry nav a {
+   color: white;
+   text-decoration: none;
+   margin-right: 15px;
+ }
+ 
+ .harry nav a:hover {
+   text-decoration: underline;
+ }
+ 
+ .harry main {
+   flex-grow: 1;
+   padding: 20px;
+ }
+ 
+ .harry footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 14px;
+ }
+ 
+.peter {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   max-width: 400px;
+   margin: 0 auto;
+ }
+ 
+ .peter h1 {
+   font-size: 24px;
+   margin-bottom: 20px;
+   color: #333;
+ }
+ 
+ .peter input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+ }
+ 
+ .peter input:focus {
+   border-color: #007bff;
+   outline: none;
+   box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+ }
+ 
+ .peter button {
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ .peter button:hover {
+   background-color: #0056b3;
+ }
+ .years {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+   padding: 16px;
+   justify-content: center;
+ }
+ 
+ .product-card {
+   background-color: #f9f9f9;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   padding: 16px;
+   width: 300px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   transition: transform 0.2s, box-shadow 0.2s;
+ }
+ 
+ .product-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .product-card h3 {
+   margin-bottom: 8px;
+   font-size: 1.5em;
+   color: #333;
+ }
+ 
+ .product-card p {
+   margin: 8px 0;
+   font-size: 1em;
+   color: #666;
+ }
+ 
+ .home1 {
+   padding: 16px;
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+ }
+ 
+ .home2 {
+   text-align: center;
+   margin-bottom: 24px;
+ }
+ 
+ .home2 h1 {
+   color: #333;
+   font-size: 2.5em;
+ }
+ 
+ .home2 h2 {
+   color: #555;
+   margin-bottom: 16px;
+ }
+ 
+ .years {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+ }
+ 
+ .product-item {
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   padding: 16px;
+   width: 300px;
+   text-align: center;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.2s, box-shadow 0.2s;
+ }
+ 
+ .product-item:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .product-item img {
+   max-width: 100%;
+   border-radius: 4px;
+   margin-bottom: 12px;
+ }
+ 
+ .product-item h3 {
+   font-size: 1.5em;
+   color: #333;
+ }
+ 
+ .product-item p {
+   margin: 8px 0;
+   color: #666;
+ }
+ 
